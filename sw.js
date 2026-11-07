@@ -1,4 +1,4 @@
-const CACHE = 'gk-cell-shell-v2'
+const CACHE = 'gk-cell-shell-v3'
 const SCOPE_PATH = new URL(self.registration.scope).pathname.replace(/\/$/, '')
 const scoped = path => `${SCOPE_PATH}/${path.replace(/^\/+/, '')}`
 const STATIC_ASSETS = [scoped('offline.html'), scoped('assets/brand/logo-2.0.png'), scoped('favicon.png')]

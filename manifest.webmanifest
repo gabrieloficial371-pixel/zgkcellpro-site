@@ -1,13 +1,23 @@
 {
-  "name": "G&K Cell — Ecossistema 2.0",
-  "short_name": "G&K Cell",
-  "description": "Portal e operação integrada de assistência técnica e soluções digitais.",
-  "start_url": "./app",
+  "id": "./app",
+  "name": "G&K Cell — Gestão",
+  "short_name": "G&K Gestão",
+  "description": "Gestão da loja, assistência técnica, estoque, clientes, financeiro e auditoria.",
+  "lang": "pt-BR",
+  "start_url": "./app?source=apk",
   "scope": "./",
   "display": "standalone",
+  "orientation": "landscape",
   "background_color": "#05070a",
   "theme_color": "#0a63ff",
+  "categories": ["business", "productivity", "utilities"],
+  "prefer_related_applications": false,
   "icons": [
-    { "src": "./assets/brand/logo-2.0.png", "sizes": "any", "type": "image/png", "purpose": "any" }
+    { "src": "./assets/brand/logo-2.0.png", "sizes": "1536x1536", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/brand/logo-2.0.png", "sizes": "1536x1536", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ordens de serviço", "short_name": "Ordens", "url": "./app/ordens", "icons": [{ "src": "./assets/brand/logo-2.0.png", "sizes": "1536x1536", "type": "image/png" }] },
+    { "name": "Estoque", "short_name": "Estoque", "url": "./app/estoque", "icons": [{ "src": "./assets/brand/logo-2.0.png", "sizes": "1536x1536", "type": "image/png" }] }
   ]
 }
