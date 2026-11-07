@@ -1,0 +1,13 @@
+{
+  "name": "G&K Cell — Ecossistema 2.0",
+  "short_name": "G&K Cell",
+  "description": "Portal e operação integrada de assistência técnica e soluções digitais.",
+  "start_url": "./app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#05070a",
+  "theme_color": "#0a63ff",
+  "icons": [
+    { "src": "./assets/brand/logo-2.0.png", "sizes": "any", "type": "image/png", "purpose": "any" }
+  ]
+}

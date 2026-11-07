@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /app/
+
+# O Sitemap será publicado quando o domínio oficial for definido.
